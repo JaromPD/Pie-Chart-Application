@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/chartName"
+        android:id="@+id/getChartName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toStartOf="@+id/value1"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chartName" />
+        app:layout_constraintTop_toBottomOf="@+id/getChartName" />
 
     <EditText
         android:id="@+id/field4"
@@ -126,7 +126,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/field1"
-        app:layout_constraintTop_toBottomOf="@+id/chartName" />
+        app:layout_constraintTop_toBottomOf="@+id/getChartName" />
 
     <EditText
         android:id="@+id/value2"
@@ -151,5 +151,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/debugView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEBUG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createChartButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
