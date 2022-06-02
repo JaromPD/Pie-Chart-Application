@@ -10,7 +10,7 @@ class PieChartActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pie_chart)
 
-        val chartNameString: String? = intent.getStringExtra("chartNameString")
+        val chartNameString: String? = intent.getStringExtra("chartNameText")
         val chartNameOutput = findViewById<TextView>(R.id.chartName)
 
         chartNameOutput.text = chartNameString
