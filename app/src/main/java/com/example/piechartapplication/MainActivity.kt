@@ -56,17 +56,17 @@ class MainActivity : AppCompatActivity() {
         val Intent = Intent(this, PieChartActivity::class.java)
         Intent.putExtra("chartNameText", chartNameText.toString())
 
-        Intent.putExtra("field1Text", field1Text.toString())
-        Intent.putExtra("value1Text", field1Text.toString())
+        Intent.putExtra("field1String", field1Text.toString())
+        Intent.putExtra("value1String", value1Text.toString())
 
-        Intent.putExtra("field2Text", field2Text.toString())
-        Intent.putExtra("value1Text", field1Text.toString())
+        Intent.putExtra("field2String", field2Text.toString())
+        Intent.putExtra("value2String", value2Text.toString())
 
-        Intent.putExtra("field3Text", field3Text.toString())
-        Intent.putExtra("value1Text", field1Text.toString())
+        Intent.putExtra("field3String", field3Text.toString())
+        Intent.putExtra("value3String", value3Text.toString())
 
-        Intent.putExtra("field4Text", field4Text.toString())
-        Intent.putExtra("value1Text", field1Text.toString())
+        Intent.putExtra("field4String", field4Text.toString())
+        Intent.putExtra("value4String", value4Text.toString())
 
 
         startActivity(Intent)
@@ -75,9 +75,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun toInteger(editableNum: Editable): Int {
-        val intNum: Int  = editableNum.getText().toString().toInt()
-
-        return intNum
+        return Integer.valueOf(editableNum.toString())
     }
 
 }
