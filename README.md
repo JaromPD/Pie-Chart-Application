@@ -4,7 +4,7 @@ This app makes a simple pie chart from user input values. One pages takes the na
 
 I created this app to become more comfortable with mobile app development, and to learn how to use MPAndroidChart along with it.
 
-[Application Demo Video](https://youtu.be/ZQ5zDRJ4Xmc)
+[Application Demo Video](https://youtu.be/3pr4NF3C3m4)
 
 # Development Environment
 
